@@ -96,6 +96,9 @@ body{
     height: 46px;
     border-radius: 50%;
 }
+.collection-img img{
+    height: 400px;
+}
 
 /* special */
 .special-img span{
@@ -109,6 +112,7 @@ body{
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    height: 400px;
 }
 .special-img:hover img{
     -webkit-transform: scale(1.2);
@@ -132,6 +136,11 @@ body{
 }
 .offers-content .btn{
     border-color: transparent!important;
+}
+
+/* popular */
+.popular-img{
+    height: 90px;
 }
 
 /* about */
